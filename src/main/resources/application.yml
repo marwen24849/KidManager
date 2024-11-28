@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: KidCareManager
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:kid
+  banner:
+    location: banner.txt
+server:
+  port: 8090
+
